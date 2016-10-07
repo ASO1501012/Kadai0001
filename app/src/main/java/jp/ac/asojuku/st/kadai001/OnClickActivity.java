@@ -38,6 +38,7 @@ implements View.OnClickListener{
     // 戻るボタンの動作
     @Override
     public void onClick(View v) {
-
+        Intent intent = new Intent(OnClickActivity.this,MainActivity.class);
+        startActivity(intent);
     }
 }
